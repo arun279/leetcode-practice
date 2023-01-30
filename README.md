@@ -1,7 +1,5 @@
 # leetcode-practice
 
-Trying to go through [Grind 75](https://www.techinterviewhandbook.org/grind75)
-
 This repository contains solutions to LeetCode problems from [Grind 75](https://www.techinterviewhandbook.org/grind75), grouped by topics.
 
 Each solution file is named with the corresponding LeetCode problem number. The `run_tests()` in `run_tests.py` is used to test solutions, you have to pass the method name and a list of test cases, where each test case contains the input and expected output.
