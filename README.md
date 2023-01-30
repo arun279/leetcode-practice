@@ -16,6 +16,31 @@ python array/1-two-sum.py
 python main.py
 ```
 
+3. Alternatively, you can utilize `generate_launch.py` if are using `vscode`. This helps generate a `launch.json` file which wiil helo you run the solutions through the `Run and Debug` function in `vscode`. To do this, create a `tasks.json` file in the `.vscode` folder. This file specifies the tasks that can be launched from the Command Palette. Here's an example of `tasks.json`
+```
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Generate launch.json",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${workspaceFolder}/generate_launch.py",
+                "${workspaceFolder}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
+```
+Once you do this, go to Command Palette (`ctrl + shift + p`) and click on `Tasks: Run Task`. From there, select `Generate launch.json`, this will create a `launch.json` inside `.vscode`. Now if you go to `Run and Debug` tab on `vscode` you can run `main.py` or any individual file directly from there.
+
+
 ## Questions Solved so far
 
 ### Arrays
