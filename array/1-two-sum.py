@@ -1,6 +1,9 @@
 '''
 https://leetcode.com/problems/two-sum/
 '''
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
 from run_tests import run_tests
 
 class Solution(object):
@@ -18,4 +21,4 @@ test_cases = [
     ([[3, 2, 4], 6], [2, 1]),
     ([[3, 3], 6], [1, 1]),
 ]
-run_tests(s.twoSum, test_cases)
+run_tests.run_tests(s.twoSum, test_cases)

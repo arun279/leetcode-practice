@@ -1,7 +1,10 @@
 '''
 https://leetcode.com/problems/ransom-note/
 '''
-from ..run_tests import run_tests
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
+from run_tests import run_tests
 from collections import Counter
 
 class Solution(object):
@@ -28,4 +31,4 @@ test_cases = [
     (["aa", "ab"], False),
     (["aa", "aab"], True),
 ]
-run_tests(solution.canConstruct, test_cases)
+run_tests.run_tests(solution.canConstruct, test_cases)

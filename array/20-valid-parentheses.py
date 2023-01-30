@@ -1,6 +1,9 @@
 '''
 https://leetcode.com/problems/valid-parentheses/
 '''
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
 from run_tests import run_tests
 
 class Solution(object):
@@ -28,4 +31,4 @@ test_cases = [
     (["()[]{}"], True),
     (["(]"], False),
 ]
-run_tests(s.isValid, test_cases)
+run_tests.run_tests(s.isValid, test_cases)
