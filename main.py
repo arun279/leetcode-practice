@@ -15,6 +15,7 @@ def run_py_files(directory, except_files):
                     print(f"Error running file {file}: {e}")
                     print("Traceback:")
                     print("".join(traceback.format_tb(e.__traceback__)))
+                print()
 
 if __name__ == "__main__":
     run_py_files(".", ["generate_launch.py", "main.py", "__init__.py", "run_tests.py"])
