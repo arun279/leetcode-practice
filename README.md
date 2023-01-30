@@ -36,7 +36,6 @@ python main.py
         }
     ]
 }
-
 ```
 Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks: Run Task". From there, select "Generate launch.json", this will create a `launch.json` inside `.vscode`. Now if you go to "Run and Debug" tab in vscode, you can run `main.py` or any individual file directly from there.
 
