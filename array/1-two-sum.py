@@ -1,6 +1,8 @@
 '''
 https://leetcode.com/problems/two-sum/
 '''
+from run_tests import run_tests
+
 class Solution(object):
     def twoSum(self, nums, target):
         pairs = {}
@@ -11,18 +13,9 @@ class Solution(object):
             pairs[num] = i
 
 s = Solution()
-
-# Example 1
-nums = [2, 7, 11, 15]
-target = 9
-assert set(s.twoSum(nums, target)) == {0, 1}
-
-# Example 2
-nums = [3, 2, 4]
-target = 6
-assert set(s.twoSum(nums, target)) == {1, 2}
-
-# Example 3
-nums = [3, 3]
-target = 6
-assert set(s.twoSum(nums, target)) == {0, 1}
+test_cases = [
+    ([[2, 7, 11, 15], 9], [1, 0]),
+    ([[3, 2, 4], 6], [2, 1]),
+    ([[3, 3], 6], [1, 1]),
+]
+run_tests(s.twoSum, test_cases)

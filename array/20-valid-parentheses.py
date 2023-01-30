@@ -1,6 +1,8 @@
 '''
 https://leetcode.com/problems/valid-parentheses/
 '''
+from run_tests import run_tests
+
 class Solution(object):
     def isValid(self, s):
         stack = []
@@ -20,14 +22,10 @@ class Solution(object):
                     return False
         return not stack
         
-# Test 1
-s = "()"
-print(Solution().isValid(s)) # Expected output: True
-
-# Test 2
-s = "()[]{}"
-print(Solution().isValid(s)) # Expected output: True
-
-# Test 3
-s = "(]"
-print(Solution().isValid(s)) # Expected output: False
+s = Solution()
+test_cases = [
+    (["()"], True),
+    (["()[]{}"], True),
+    (["(]"], False),
+]
+run_tests(s.isValid, test_cases)

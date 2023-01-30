@@ -3,7 +3,7 @@ import os
 import json
 
 def generate_launch(workspace_folder):
-    configurations = []
+    configurations = []    
     for root, dirs, files in os.walk(workspace_folder):
         for file in files:
             if file.endswith(".py") and file != "generate_launch.py":

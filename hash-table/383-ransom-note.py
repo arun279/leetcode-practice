@@ -1,6 +1,7 @@
 '''
 https://leetcode.com/problems/ransom-note/
 '''
+from ..run_tests import run_tests
 from collections import Counter
 
 class Solution(object):
@@ -22,6 +23,9 @@ class Solution(object):
         return True
 
 solution = Solution()
-print(solution.canConstruct("a", "b")) # False
-print(solution.canConstruct("aa", "ab")) # False
-print(solution.canConstruct("aa", "aab")) # True
+test_cases = [
+    (["a", "b"], False),
+    (["aa", "ab"], False),
+    (["aa", "aab"], True),
+]
+run_tests(solution.canConstruct, test_cases)
