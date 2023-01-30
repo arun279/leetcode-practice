@@ -48,4 +48,6 @@ Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks
 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ### Hash Table
+41. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+380. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 383. [Ransom Note](https://leetcode.com/problems/ransom-note/)
