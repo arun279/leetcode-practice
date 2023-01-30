@@ -1,8 +1,6 @@
 # leetcode-practice
 
-This repository contains solutions to LeetCode problems from [Grind 75](https://www.techinterviewhandbook.org/grind75), grouped by topics.
-
-Each solution file is named with the corresponding LeetCode problem number. The `run_tests()` in `run_tests.py` is used to test solutions, you have to pass the method name and a list of test cases, where each test case contains the input and expected output.
+This repository contains solutions to LeetCode problems from [Grind 75](https://www.techinterviewhandbook.org/grind75), grouped by topics. Each solution file is named with the corresponding LeetCode problem number.
 
 ## Usage
 
@@ -50,3 +48,9 @@ Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks
 41. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 380. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 383. [Ransom Note](https://leetcode.com/problems/ransom-note/)
+
+## Contribute
+
+- You can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added.
+- Keep the naming contention: filename starts with LeetCode question number, followed by the question. The docstring in the file should be a link to the the LeetCode problem. Update the README.md with the solved questions added.
+- In the file, use `run_tests()` from `run_tests.py` to test the solution, you have to pass the method name and a list of test cases, where each test case contains a tuple of input and expected output.
