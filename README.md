@@ -57,8 +57,10 @@ Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks
 36. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 
 ### Not in Grind 75
-000. Seven Segment Display to String
 232. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+### Not in Leetcode 
+1. [Seven Segment Display to String]()
 
 ## Contribute
 
