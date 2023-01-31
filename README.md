@@ -34,11 +34,13 @@ python -m unittest discover -s tests
 1. [Seven Segment Display to String]()
 
 ## Contribute
-
-- You can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added.
-- Keep the naming contention: filename starts with LeetCode question number, followed by the question. The docstring in the file should be a link to the the LeetCode problem. Update the README.md with the solved questions added.
+If you would like to contribute, you can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added, following these requirements:
+- Keep the naming contention: filename starts with LeetCode question number, followed by the question.
+- The docstring in the file should be a link to the the LeetCode problem.
+- Update the README.md with the solved questions added.
 - For every problem, add a corresponding test method to `tests/test_all.py`.
-- PRs without tests will not be accepted.
+
+PRs that don't follow these requirements won't be merged.
 
 ## Note
 
