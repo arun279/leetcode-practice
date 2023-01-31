@@ -3,7 +3,7 @@
 This repository contains solutions to LeetCode problems from [Grind 75](https://www.techinterviewhandbook.org/grind75), grouped by topics. Each solution file is named with the corresponding LeetCode problem number.
 
 ## Usage
-To test, use the following command:
+- To test, use the following command:
 ```
 python -m unittest discover -s tests
 ```
