@@ -40,3 +40,7 @@ python -m unittest discover -s tests
 - You can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added.
 - Keep the naming contention: filename starts with LeetCode question number, followed by the question. The docstring in the file should be a link to the the LeetCode problem. Update the README.md with the solved questions added.
 - Don't add any testing inside these files as `run_tests()` has been deprecated. Instead, add a method to `tests/test_all.py`. PRs without tests will not be accepted.
+
+## Note
+
+`run_tests` has now been completely removed from `master`. Please checkout `legacy_run_tests` in order to use it.

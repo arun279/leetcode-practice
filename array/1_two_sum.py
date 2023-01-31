@@ -14,11 +14,3 @@ class Solution(object):
             if pair in pairs:
                 return [i, pairs[pair]]
             pairs[num] = i
-
-# s = Solution()
-# test_cases = [
-#     ([[2, 7, 11, 15], 9], [1, 0]),
-#     ([[3, 2, 4], 6], [2, 1]),
-#     ([[3, 3], 6], [1, 1]),
-# ]
-# run_tests.run_tests(s.twoSum, test_cases)

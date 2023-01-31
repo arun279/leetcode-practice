@@ -24,11 +24,3 @@ class Solution(object):
                 return False
         
         return True
-
-# solution = Solution()
-# test_cases = [
-#     (["a", "b"], False),
-#     (["aa", "ab"], False),
-#     (["aa", "aab"], True),
-# ]
-# run_tests.run_tests(solution.canConstruct, test_cases)

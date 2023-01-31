@@ -19,11 +19,3 @@ def seven_segment_to_string(segment_string):
         print(segments[0][i:i+3] + "\n" + segments[1][i:i+3] + "\n" + segments[2][i:i+3])
         result += digit_mapping.get(segment, "?")
     return result
-
-# Test the example provided
-# segment_string = """
-#    _  _     _  _  _  _  _  _   
-#  | _| _||_||_ |_   ||_||_|| |
-#  ||_  _|  | _||_|  ||_| _||_|
-# """
-# print(seven_segment_to_string(segment_string)) # Output: "1234567890"

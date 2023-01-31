@@ -24,11 +24,3 @@ class Solution(object):
                 else:
                     return False
         return not stack
-        
-# s = Solution()
-# test_cases = [
-#     (["()"], True),
-#     (["()[]{}"], True),
-#     (["(]"], False),
-# ]
-# run_tests.run_tests(s.isValid, test_cases)
