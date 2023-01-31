@@ -9,7 +9,7 @@ python -m unittest discover -s tests
 ```
 - You can also run individual test methods in `tests/test_all.py` using your IDE's testing framework.
 
-## Questions Solved so far
+## Questions Solved
 
 ### Arrays
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
