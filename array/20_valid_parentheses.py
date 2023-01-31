@@ -1,11 +1,6 @@
 '''
 https://leetcode.com/problems/valid-parentheses/
 '''
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
-from run_tests import run_tests
-
 class Solution(object):
     def isValid(self, s):
         stack = []

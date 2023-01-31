@@ -1,8 +1,7 @@
+'''
+https://leetcode.com/problems/insert-delete-getrandom-o1/
+'''
 import random
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
-from run_tests import run_tests
 
 class RandomizedSet(object):
     def __init__(self):
