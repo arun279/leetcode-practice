@@ -3,9 +3,7 @@
 This repository contains solutions to LeetCode problems from [Grind 75](https://www.techinterviewhandbook.org/grind75), grouped by topics. Each solution file is named with the corresponding LeetCode problem number.
 
 ## Usage
-
-- Testing individual files and using `run_tests` has been discontinued. The tests are now written in `tests/test_all.py` using `unittest`.
-- To test, use the following command:
+To test, use the following command:
 ```
 python -m unittest discover -s tests
 ```
@@ -39,9 +37,9 @@ python -m unittest discover -s tests
 
 - You can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added.
 - Keep the naming contention: filename starts with LeetCode question number, followed by the question. The docstring in the file should be a link to the the LeetCode problem. Update the README.md with the solved questions added.
-- Don't add any testing inside these files as `run_tests()` has been discontinued. Instead, add a method to `tests/test_all.py`.
+- For every problem, add a corresponding test method to `tests/test_all.py`.
 - PRs without tests will not be accepted.
 
 ## Note
 
-`run_tests` has now been completely removed from `master`. Please checkout `legacy_run_tests` in order to use it.
+`run_tests` has now been completely removed from `master`. Please checkout `legacy_run_tests` branch in order to use it.
