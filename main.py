@@ -18,4 +18,11 @@ def run_py_files(directory, except_files):
                 print()
 
 if __name__ == "__main__":
-    run_py_files(".", ["generate_launch.py", "main.py", "__init__.py", "run_tests.py", "380_insert_delete_getrandom_o1.py"])
+    run_py_files(".", ["generate_launch.py", 
+                        "main.py", 
+                        "__init__.py", 
+                        "run_tests.py", 
+                        "380_insert_delete_getrandom_o1.py",
+                        "206_reverse_linked_list.py",
+                        "146_lru_cache.py", 
+                        "232_queue_using_stacks.py"])

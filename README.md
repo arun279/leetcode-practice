@@ -49,6 +49,17 @@ Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks
 380. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 383. [Ransom Note](https://leetcode.com/problems/ransom-note/)
 
+### Linked List
+146. [LRU Cache](https://leetcode.com/problems/lru-cache/)
+206. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+### Matrix
+36. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+
+### Not in Grind 75
+232. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+000. Seven Segment Display to String
+
 ## Contribute
 
 - You can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added.
