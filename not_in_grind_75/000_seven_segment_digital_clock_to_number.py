@@ -21,9 +21,9 @@ def seven_segment_to_string(segment_string):
     return result
 
 # Test the example provided
-segment_string = """
-   _  _     _  _  _  _  _  _   
- | _| _||_||_ |_   ||_||_|| |
- ||_  _|  | _||_|  ||_| _||_|
-"""
-print(seven_segment_to_string(segment_string)) # Output: "1234567890"
+# segment_string = """
+#    _  _     _  _  _  _  _  _   
+#  | _| _||_||_ |_   ||_||_|| |
+#  ||_  _|  | _||_|  ||_| _||_|
+# """
+# print(seven_segment_to_string(segment_string)) # Output: "1234567890"

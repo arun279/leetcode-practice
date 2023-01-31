@@ -29,12 +29,12 @@ class RandomizedSet(object):
         return self.list[random.randint(0, len(self.list) - 1)]
 
 
-obj = RandomizedSet()
+# obj = RandomizedSet()
 
-print(obj.insert(1)) # True
-print(obj.remove(2)) # False
-print(obj.insert(2)) # True
-print(obj.getRandom()) # 1 or 2
-print(obj.remove(1)) # True
-print(obj.insert(2)) # False
-print(obj.getRandom()) # 2
+# print(obj.insert(1)) # True
+# print(obj.remove(2)) # False
+# print(obj.insert(2)) # True
+# print(obj.getRandom()) # 1 or 2
+# print(obj.remove(1)) # True
+# print(obj.insert(2)) # False
+# print(obj.getRandom()) # 2

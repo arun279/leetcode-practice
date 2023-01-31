@@ -16,11 +16,11 @@ class Solution:
         return n + 1 # return theoretical max
 
 
-solution = Solution()
-test_cases = [
-    ([[1,2,0]], 3),
-    ([[3,4,-1,1]], 2),
-    ([[7,8,9,11,12]],1),
-]
-run_tests.run_tests(solution.firstMissingPositive, test_cases)
+# solution = Solution()
+# test_cases = [
+#     ([[1,2,0]], 3),
+#     ([[3,4,-1,1]], 2),
+#     ([[7,8,9,11,12]],1),
+# ]
+# run_tests.run_tests(solution.firstMissingPositive, test_cases)
 

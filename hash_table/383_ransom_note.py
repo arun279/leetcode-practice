@@ -25,10 +25,10 @@ class Solution(object):
         
         return True
 
-solution = Solution()
-test_cases = [
-    (["a", "b"], False),
-    (["aa", "ab"], False),
-    (["aa", "aab"], True),
-]
-run_tests.run_tests(solution.canConstruct, test_cases)
+# solution = Solution()
+# test_cases = [
+#     (["a", "b"], False),
+#     (["aa", "ab"], False),
+#     (["aa", "aab"], True),
+# ]
+# run_tests.run_tests(solution.canConstruct, test_cases)

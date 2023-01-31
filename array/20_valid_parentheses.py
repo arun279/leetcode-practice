@@ -25,10 +25,10 @@ class Solution(object):
                     return False
         return not stack
         
-s = Solution()
-test_cases = [
-    (["()"], True),
-    (["()[]{}"], True),
-    (["(]"], False),
-]
-run_tests.run_tests(s.isValid, test_cases)
+# s = Solution()
+# test_cases = [
+#     (["()"], True),
+#     (["()[]{}"], True),
+#     (["(]"], False),
+# ]
+# run_tests.run_tests(s.isValid, test_cases)

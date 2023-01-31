@@ -4,39 +4,12 @@ This repository contains solutions to LeetCode problems from [Grind 75](https://
 
 ## Usage
 
-1. To run individual solutions, you can just run the corresponding file. For example:
+- Testing individual files and using `run_tests` has been deprecated. The tests are now written in `tests/test_all.py` using `unittest`.
+- To test, use the following command:
 ```
-python array/1-two-sum.py
+python -m unittest discover -s tests
 ```
-
-2. To test all the solutions in the repository, run the `main.py` file.
-```
-python main.py
-```
-
-3. Alternatively, you can utilize `generate_launch.py` if are using `vscode`. This helps generate a `launch.json` file which wiil helo you run the solutions through the "Run and Debug" function in vscode. To do this, create a `tasks.json` file in the `.vscode` folder. This file specifies the tasks that can be launched from the Command Palette. Here's an example of `tasks.json`
-```
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Generate launch.json",
-            "type": "shell",
-            "command": "python",
-            "args": [
-                "${workspaceFolder}/generate_launch.py",
-                "${workspaceFolder}"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        }
-    ]
-}
-```
-Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks: Run Task". From there, select "Generate launch.json", this will create a `launch.json` inside `.vscode`. Now if you go to "Run and Debug" tab in vscode, you can run `main.py` or any individual file directly from there.
-
+- You can also run individual test methods in `tests/test_all.py` using your IDE's testing framework.
 
 ## Questions Solved so far
 
@@ -66,4 +39,4 @@ Once you do this, go to Command Palette (`ctrl + shift + p`) and click on "Tasks
 
 - You can submit PRs with leetcode solutions from [Grind 75](https://www.techinterviewhandbook.org/grind75) that have not already been added.
 - Keep the naming contention: filename starts with LeetCode question number, followed by the question. The docstring in the file should be a link to the the LeetCode problem. Update the README.md with the solved questions added.
-- In the file, use `run_tests()` from `run_tests.py` to test the solution, you have to pass the method name and a list of test cases, where each test case contains a tuple of input and expected output.
+- Don't add any testing inside these files as `run_tests()` has been deprecated. Instead, add a method to `tests/test_all.py`. PRs without tests will not be accepted.
