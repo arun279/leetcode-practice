@@ -7,7 +7,6 @@ class ListNode(object):
         self.val = val
         self.next = next
 
-# Solution
 class Solution(object):
     def reverseList(self, head):
         prev = None 

@@ -8,7 +8,6 @@ class LRUCache(object):
         self.cache = {}
         self.access_list = []
         
-
     def get(self, key):
         if key in self.cache:
             self.access_list.remove(key)

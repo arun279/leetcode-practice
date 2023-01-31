@@ -9,7 +9,6 @@ class MyQueue(object):
 
     def push(self, x):
         self.stack1.append(x)
-        
 
     def pop(self):
         if not self.stack2:
@@ -17,7 +16,6 @@ class MyQueue(object):
                 self.stack2.append(self.stack1.pop())
         return self.stack2.pop()            
         
-
     def peek(self):
         if not self.stack2:
             while self.stack1:

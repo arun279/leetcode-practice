@@ -14,9 +14,7 @@ class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         ransomNote_counter = Counter(ransomNote)
         magazine_counter = Counter(magazine)
-        
         for char in ransomNote_counter:
             if ransomNote_counter[char] > magazine_counter[char]:
                 return False
-        
         return True
