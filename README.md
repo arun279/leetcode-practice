@@ -15,10 +15,21 @@ python -m unittest discover -s tests
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
+### Binary Tree
+102. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+104. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+### Graph
+133. [Clone Graph](https://leetcode.com/problems/clone-graph/)
+200. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
 ### Hash Table
 41. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 380. [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 383. [Ransom Note](https://leetcode.com/problems/ransom-note/)
+
+### Heap
+215. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 ### Linked List
 146. [LRU Cache](https://leetcode.com/problems/lru-cache/)

@@ -26,6 +26,44 @@ class TestCases(unittest.TestCase):
         self.assertEqual(s.isValid("(]"), False)
 
     '''
+    binary_tree/
+    '''
+    def test_binary_tree_level_order_traversal(self):
+        level_order_traversal = self.import_module_from_file("./binary_tree/102_binary_tree_level_order.py")
+        solution = level_order_traversal.Solution()
+        root1 = level_order_traversal.TreeNode(3, level_order_traversal.TreeNode(9), level_order_traversal.TreeNode(20, level_order_traversal.TreeNode(15), level_order_traversal.TreeNode(7)))
+        root2 = level_order_traversal.TreeNode(1)
+        root3 = None
+        self.assertEqual(solution.levelOrder(root1),[[3],[9,20],[15,7]])
+        self.assertEqual(solution.levelOrder(root2),[[1]])
+        self.assertEqual(solution.levelOrder(root3),[])
+
+    def test_max_depth_binary_tree(self):
+        max_depth = self.import_module_from_file("./binary_tree/104_max_depth_binary_tree.py")
+        solution = max_depth.Solution()
+        root = max_depth.TreeNode(3)
+        root.left = max_depth.TreeNode(9)
+        root.right = max_depth.TreeNode(20)
+        root.right.left = max_depth.TreeNode(15)
+        root.right.right = max_depth.TreeNode(7)
+        result = solution.maxDepth(root)
+        self.assertEqual(result,3)
+        root = max_depth.TreeNode(1)
+        root.right = max_depth.TreeNode(2)
+        solution = max_depth.Solution()
+        result = solution.maxDepth(root)
+        self.assertEqual(result,2)
+
+    '''
+    graph
+    '''
+    def test_clone_graph(self):
+        pass
+
+    def test_number_of_islands(self):
+        pass
+
+    '''
     hash_table/
     '''
     def test_first_missing_positive(self):
@@ -52,6 +90,12 @@ class TestCases(unittest.TestCase):
         self.assertFalse(s.canConstruct("a","b"))
         self.assertFalse(s.canConstruct("aa","ab"))
         self.assertTrue(s.canConstruct("aa","aab"))
+
+    '''
+    heap/
+    '''
+    def test_kth_largest_element(self):
+        pass
 
     '''
     linked_list/
